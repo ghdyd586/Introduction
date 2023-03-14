@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@300&display=swap');
+
+body{
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-title h1{
+    width: 100vw auto;
+    height: 100vh auto;
+    line-height: 80vh;
+    font-size: 70px auto;
+    color : white;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img{
+    height: auto;
+    max-width: 100%;
+}
+.profile-text h1{
+    width: 100vw auto;
+    height: 100vh auto;
+    line-height: 80vh;
+    font-size: 70px auto;
+}
+
+
+.profile-image{
+    font-size: 40px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-info{
+    margin-bottom: 70px;
+    font-size: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info ul li {
+    margin-bottom: 20px;
+    font-size: 20px auto;
+    list-style: none;
+}
+
+.profile-buttons{
+    font-size: 30px auto;
+}
+
+.profile-buttons i h1{
+    line-height: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+hr{
+    all: none;
+    border: 0.05px solid hwb(0 0% 100% / 0.107);
+}
+
+.profile-footer i h1{
+    line-height: 20%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.btncontainer{  
+    padding-bottom: 20%;
+}
+
+.btncontainer button{
+    all: none;
+    height: 40px;
+    width: 100px;
+    background-color: hwb(199 73% 8%);
+    border: 1px solid hwb(0 0% 100% / 0.107);
+    border-radius: 5px;
+    font-family: 'Black Han Sans';
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
