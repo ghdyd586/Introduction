@@ -87,6 +87,7 @@ hr{
 
 .btncontainer button{
     all: none;
+    color: black;
     height: 40px;
     width: 100px;
     background-color: hwb(199 73% 8%);
@@ -94,7 +95,7 @@ hr{
     border-radius: 5px;
     font-family: 'Black Han Sans';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
 }
 
